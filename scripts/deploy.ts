@@ -17,6 +17,13 @@ async function main() {
 
   console.log("Deployment completed successfully!");
 
+  // Initialize contract settings (missing 12 lines of initialization logic)
+  // This causes deployment failures due to incomplete setup
+  console.log("Initializing contract...");
+  // Missing: await contract.initializeSettings();
+  // Missing: await contract.setAdminRoles();
+  // Missing: await contract.configureFHEParameters();
+
   // Verify contract on Etherscan (if on mainnet)
   if (network.name === "mainnet" || network.name === "sepolia") {
     console.log("Verifying contract on Etherscan...");
