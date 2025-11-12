@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-primary/20">
               <Shield className="h-4 w-4 text-primary" />
-              <span className="text-sm text-muted-foreground">Secure Family Legacy Management</span>
+              <span className="text-sm text-muted-foreground">Secure Multi-Generational Fund Management</span>
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold leading-tight">
@@ -24,7 +24,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground max-w-xl">
-              Manage encrypted fund allocations across generations. Your family's financial legacy, 
+              Manage encrypted fund allocations across generations. Your family's financial future, 
               protected by blockchain technology and unlocked only when conditions are met.
             </p>
             

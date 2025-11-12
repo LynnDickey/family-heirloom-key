@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { Wallet } from "lucide-react";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 import logo from "@/assets/logo.png";
 
 const Header = () => {
@@ -25,10 +24,7 @@ const Header = () => {
           </a>
         </nav>
         
-        <Button className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2 shadow-[0_0_20px_hsl(var(--vault-glow)/0.3)]">
-          <Wallet className="h-4 w-4" />
-          Connect Wallet
-        </Button>
+        <ConnectButton />
       </div>
     </header>
   );

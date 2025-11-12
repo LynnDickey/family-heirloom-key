@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="text-xl font-bold">LegacyFund</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Securing your family's financial future through generational vault technology.
+              Secure multi-generational fund management with blockchain-powered vault technology.
             </p>
           </div>
           

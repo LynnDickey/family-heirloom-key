@@ -39,7 +39,7 @@ const GenerationalTiers = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Structure your family's legacy across multiple generations with intelligent unlock conditions
+            Structure your family's funds across multiple generations with intelligent unlock conditions
           </p>
         </div>
         
