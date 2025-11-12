@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Lock, Users } from "lucide-react";
 import heroVault from "@/assets/hero-vault.png";
+import CreateVaultDialog from "@/components/CreateVaultDialog";
 
 const Hero = () => {
   return (
@@ -29,17 +30,20 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
-                className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2 shadow-[0_0_30px_hsl(var(--vault-glow)/0.4)] hover:shadow-[0_0_40px_hsl(var(--vault-glow)/0.6)] transition-all"
-              >
-                <Lock className="h-5 w-5" />
-                Create Your Vault
-              </Button>
+              <CreateVaultDialog>
+                <Button 
+                  size="lg" 
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2 shadow-[0_0_30px_hsl(var(--vault-glow)/0.4)] hover:shadow-[0_0_40px_hsl(var(--vault-glow)/0.6)] transition-all"
+                >
+                  <Lock className="h-5 w-5" />
+                  Create Your Vault
+                </Button>
+              </CreateVaultDialog>
               <Button 
                 size="lg" 
                 variant="outline"
                 className="border-border hover:bg-secondary"
+                onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Learn More
               </Button>
