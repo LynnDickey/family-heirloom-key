@@ -17,6 +17,9 @@ A fully homomorphic encryption (FHE) based family heirloom management system tha
 - **🌐 Rainbow Wallet Integration**: Seamless wallet connection and transaction management
 - **📱 Responsive UI**: Modern React interface with comprehensive error handling
 - **🧪 Full Test Coverage**: Unit and integration tests with Hardhat
+- **🚨 Emergency Functions**: Contract owner can perform emergency withdrawals during paused state
+- **📦 Batch Operations**: Efficient batch transfer functionality for multiple tokens
+- **🔍 Advanced Queries**: Optimized event indexing for efficient blockchain queries
 
 ## 🏗️ Project Architecture
 
