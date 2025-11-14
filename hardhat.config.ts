@@ -57,6 +57,15 @@ const config: HardhatUserConfig = {
       chainId: 11155111,
       url: `https://sepolia.infura.io/v3/${INFURA_API_KEY}`,
     },
+    polygon: {
+      accounts: {
+        mnemonic: MNEMONIC,
+        path: "m/44'/60'/0'/0/",
+        count: 10,
+      },
+      chainId: 137,
+      url: `https://polygon-mainnet.infura.io/v3/${INFURA_API_KEY}`,
+    },
   },
   paths: {
     artifacts: "./artifacts",
