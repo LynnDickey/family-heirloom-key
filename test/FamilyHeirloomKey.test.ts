@@ -48,6 +48,20 @@ describe("FamilyHeirloomKey", function () {
       )).to.be.revertedWith("Title must be 1-100 characters");
     });
 
+    it("Should reject minting when contract is paused", async function () {
+      await contract.pause();
+      const deadline = Math.floor(Date.now() / 1000) + 365 * 24 * 60 * 60;
+
+      await expect(contract.mintHeirloom(
+        "Test Heirloom",
+        "Description",
+        ethers.ZeroHash,
+        ethers.ZeroHash,
+        heir.address,
+        deadline
+      )).to.be.revertedWith("Contract is paused");
+    });
+
     it("Should reject self as heir", async function () {
       const deadline = Math.floor(Date.now() / 1000) + 365 * 24 * 60 * 60;
 
