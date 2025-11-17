@@ -1,0 +1,25 @@
+{
+  "network": {
+    "name": "sepolia",
+    "chainId": 11155111,
+    "rpcUrl": "https://sepolia.infura.io/v3/YOUR_INFURA_KEY"
+  },
+  "contract": {
+    "address": "0x0000000000000000000000000000000000000000",
+    "deploymentBlock": 0
+  },
+  "fhe": {
+    "gatewayUrl": "https://gateway.zama.ai",
+    "network": "testnet"
+  },
+  "features": {
+    "emergencyWithdraw": true,
+    "batchOperations": true,
+    "advancedQueries": true
+  },
+  "limits": {
+    "maxBatchSize": 20,
+    "minInheritanceDeadline": 365,
+    "maxInheritanceDeadline": 36500
+  }
+}
