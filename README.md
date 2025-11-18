@@ -21,6 +21,15 @@ A fully homomorphic encryption (FHE) based family heirloom management system tha
 - **📦 Batch Operations**: Efficient batch transfer functionality for multiple tokens
 - **🔍 Advanced Queries**: Optimized event indexing for efficient blockchain queries
 
+## 📈 Recent Updates
+
+- ✅ **Emergency Functions**: Owner can perform emergency withdrawals during paused state
+- ✅ **Batch Operations**: Efficient batch transfer and mint functionality (up to 20 tokens)
+- ✅ **Advanced Event Indexing**: Optimized EVM logs for efficient blockchain queries
+- ✅ **Multi-Chain Support**: Extended deployment support for Polygon network
+- ✅ **Enhanced Testing**: Additional test cases for contract security and functionality
+- ✅ **Automated Verification**: Contract verification scripts for deployment confirmation
+
 ## 🏗️ Project Architecture
 
 ```
